@@ -74,8 +74,8 @@ export default function Home() {
       </Head>
 
       <Box p='50px'>
-        <Link as='b' color='cyan.300' href='blog.withpaper.com/how-to-airdrop-nfts-using-email/' isExternal> 
-          Learn how to use this page.
+        <Link color='cyan.300' href='https://blog.withpaper.com/how-to-airdrop-nfts-using-email/' isExternal> 
+          <b>Learn how to use this page.</b>
         </Link>
         <Center>
           <Stack spacing={3} maxW='sm'>
