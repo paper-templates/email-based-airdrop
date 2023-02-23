@@ -74,7 +74,7 @@ export default function Home() {
       </Head>
 
       <Box p={4}>
-        <Link as='b' color='cyan.300' href='https://paper.xyz/dashboard/developers' isExternal> 
+        <Link as='b' color='cyan.300' href='https://email-based-airdrop.vercel.app/' isExternal> 
           Learn how to use this page.
         </Link>
         <Center>
@@ -114,7 +114,7 @@ export default function Home() {
             }
             
             <Button onClick={openCheckoutLink}>
-              {isLoading ? <Spinner/>  : "Generate" }
+              {isLoading ? <Spinner/>  : "Send Airdrop" }
             </Button>
           </Stack>
         </Center>
