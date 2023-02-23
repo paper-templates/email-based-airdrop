@@ -73,12 +73,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Box p={4}>
-        <Link as='b' color='cyan.300' href='https://email-based-airdrop.vercel.app/' isExternal> 
+      <Box p='50px'>
+        <Link as='b' color='cyan.300' href='blog.withpaper.com/how-to-airdrop-nfts-using-email/' isExternal> 
           Learn how to use this page.
         </Link>
         <Center>
-          <Stack spacing={3} maxW='sm' mt={50}>
+          <Stack spacing={3} maxW='sm'>
             <Center>
               <Image src='logo.png' alt="Paper logo" w='10rem'></Image> 
             </Center>
